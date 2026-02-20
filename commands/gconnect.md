@@ -1,3 +1,4 @@
+```bash
 # Link current directory to an existing GitHub repo and sync
 gconnect() {
     # 1. Fetch your repos and select one using fzf
@@ -58,4 +59,5 @@ gconnect() {
         echo "Done."
     fi
 }
+```
 

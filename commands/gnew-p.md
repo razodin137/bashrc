@@ -1,3 +1,4 @@
+```bash
 # Create a new private GitHub repository with the name of the current directory (or provided name), initializing git first
 gnew-p() {
     local repo_name="${1:-$(basename "$PWD")}"
@@ -21,4 +22,4 @@ gnew-p() {
 
     git push -u origin master
 }
-
+```

@@ -1,3 +1,4 @@
+```bash
 gtag() {
   echo "🤖 Rebuilding agents_context.md and copying payload..."
 
@@ -59,3 +60,4 @@ EOF
 
   echo "✅ agents_context.md updated & project tree mapped!"
 }
+```
